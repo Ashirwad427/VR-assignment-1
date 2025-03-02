@@ -66,5 +66,5 @@ def save_img(img_p, out_d="coin_images"):
     print(f"Total coins detected: {len(seg_coins)}")
 
 
-img_p = os.path.join(os.getcwd(), "coins.png")
+img_p = os.path.join(os.getcwd(),"captured_images", "coins.png")
 save_img(img_p)
