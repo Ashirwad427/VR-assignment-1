@@ -70,7 +70,7 @@ def remove_black_border(image):
 
 # Load images
 image_paths = ["img-1.jpg", "img-2.jpg", "img-3.jpg"]
-images = load_and_resize_images([os.path.join(os.getcwd(), img) for img in image_paths])
+images = load_and_resize_images([os.path.join(os.getcwd(),"captured_images",img) for img in image_paths])
 
 # Detect features
 sift = cv2.SIFT_create()
